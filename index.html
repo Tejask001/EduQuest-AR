@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <a-scene arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3">
+  <a-scene arjs>
     <a-assets>
       <a-asset-item id="apple" src="./models/apple-model"></a-asset-item>
       <a-asset-item id="bat" src="./models/bat"></a-asset-item>
@@ -37,107 +37,107 @@
       <a-asset-item id="zebra" src="./models/zebra/scene.gltf"></a-asset-item>
     </a-assets>
 
-    <a-marker type="barcode" value="0">
-      <a-gltf-model src="#apple" scale="20 20 20" rotation="0 0 0"></a-gltf-model>
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-images.patt">
+      <a-entity gltf-model="#apple" scale="20 20 20" position="0 0 0"></a-entity>
     </a-marker>
 
-    <a-marker type="barcode" value="1">
-      <a-gltf-model src="#bat"></a-gltf-model>
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-b.patt">
+      <a-entity gltf-model="#bat" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>
     </a-marker>
 
-    <a-marker type="barcode" value="2">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-c.patt">
       <a-gltf-model src="#cat" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="3">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-d.patt">
       <a-gltf-model src="#dog" scale="0.05 0.05 0.05" rotation="0 0 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="4">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-e.patt">
       <a-gltf-model src="#elephant" scale="0.04 0.04 0.04" rotation="0 0 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="5">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-f.patt">
       <a-gltf-model src="#fish" scale="0.5 0.5 0.5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="6">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-g.patt">
       <a-gltf-model src="#grapes" scale="0.5 0.5 0.5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="7">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-h.patt">
       <a-gltf-model src="#hat" scale="0.05 0.05 0.05" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="8">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-i.patt">
       <a-gltf-model src="#ice-cream" scale="0.09 0.09 0.09" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="9">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-j.patt">
       <a-gltf-model src="#jug" scale="1 1 1" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="10">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-k.patt">
       <a-gltf-model src="#kite" scale="2 2 2" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="11">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-l.patt">
       <a-gltf-model src="#lion" scale="1 1 1" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="12">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-m.patt">
       <a-gltf-model src="#mango" scale="0.09 0.09 0.09" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="13">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-n.patt">
       <a-gltf-model src="#nail" scale="5 5 5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="14">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-o.patt">
       <a-gltf-model src="#orange" scale="0.05 0.05 0.05" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="15">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-p.patt">
       <a-gltf-model src="#parrot" scale="5 5 5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="16">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-q.patt">
       <a-gltf-model src="#quill" scale="5 5 5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="17">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-r.patt">
       <a-gltf-model src="#rabbit" scale="0.09 0.09 0.09" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="18">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-s.patt">
       <a-gltf-model src="#sun" scale="0.1 0.1 0.1" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="19">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-t.patt">
       <a-gltf-model src="#tree" scale="0.01 0.01 0.01" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="20">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-u.patt">
       <a-gltf-model src="#umbrella" scale="0.3 0.3 0.3" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="21">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-v.patt">
       <a-gltf-model src="#violin" scale="0.05 0.05 0.05" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="22">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-w.patt">
       <a-gltf-model src="#watermelon" scale="0.005 0.005 0.005" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="23">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-x.patt">
       <a-gltf-model src="#xylophone" scale="0.05 0.05 0.05" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="24">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-y.patt">
       <a-gltf-model src="#yacht" scale="1.5 1.5 1.5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
-    <a-marker type="barcode" value="25">
+    <a-marker preset="pattern" type="pattern" url="./patterns/pattern-letter-z.patt">
       <a-gltf-model src="#zebra" scale="0.5 0.5 0.5" rotation="0 90 0" animation-mixer></a-gltf-model>
     </a-marker>
 
